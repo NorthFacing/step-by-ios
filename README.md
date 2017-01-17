@@ -15,8 +15,8 @@
   * Github: https://github.com/SwiftGGTeam/Developing-iOS-9-Apps-with-Swift
 
 ## 笔记地址
-* [stanford ios s1](https://github.com/NorthFacing/step-by-ios/tree/stanford_ios_s1)  
-* [stanford ios s2](https://github.com/NorthFacing/step-by-ios/tree/stanford_ios_s2)  
+* [stanford ios s1](https://github.com/NorthFacing/step-by-ios/tree/stanford_ios_s01)  
+* [stanford ios s2](https://github.com/NorthFacing/step-by-ios/tree/stanford_ios_s02)  
 
 
 
