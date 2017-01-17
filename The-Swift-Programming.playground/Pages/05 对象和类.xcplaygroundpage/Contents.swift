@@ -12,7 +12,7 @@ class Shape {
 }
 
 /*: 创建一个类的实例 */
-var shape = Shape()
+var shape = Shape() // 不需要new关键字来声明，这点和kotlin是一样的
 shape.numberOfSides = 7
 var shapeDescription = shape.simpleDescription()
 
