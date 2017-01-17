@@ -4,7 +4,7 @@
 此仓库是学习iOS历程记录
 
 # swift基础
-https://github.com/NorthFacing/
+
 * [swift programming language](https://github.com/NorthFacing/step-by-ios/tree/swift-playgrounds) —— The-Swift-Programming.playground
 
 # 项目 1：Stanford - Developing iOS 9 Apps with Swift
