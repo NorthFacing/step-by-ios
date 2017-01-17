@@ -4,7 +4,6 @@ import Foundation
 
 /*: 定义class类 */
 // 使用class和类名来创建一个类。
-
 class Shape {
     var numberOfSides = 0
     func simpleDescription() -> String {
