@@ -5,7 +5,7 @@ import Foundation
 /*: if 语句*/
 // 简单的if语句
 let score = 99.0
-if score > 80 {
+if (score > 80) { // if判断条件语句外面的括号去掉
     print("优秀")
 } else {
     print("非优秀")

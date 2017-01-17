@@ -81,7 +81,7 @@ print(triangle.perimeter)
 triangle.perimeter = 9.9
 print(triangle.sideLength)
 
-/*: 枚举和结构体*/
+/*: 枚举*/
 // 使用enum来创建一个枚举。就像类和其他所有命名类型一样，枚举可以包含方法。
 enum Rank: Int {
     case Ace = 1
@@ -104,6 +104,9 @@ enum Rank: Int {
 }
 let ace = Rank.Ace
 let aceRawValue = ace.rawValue
+
+/*: 和结构 */
+
 
 
 
