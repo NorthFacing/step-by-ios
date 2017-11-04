@@ -14,6 +14,7 @@
 		28565F641FACB1B500E45C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28565F621FACB1B500E45C7C /* LaunchScreen.storyboard */; };
 		28565F6F1FACB1B500E45C7C /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565F6E1FACB1B500E45C7C /* BullsEyeTests.swift */; };
 		28565F7A1FACB1B500E45C7C /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565F791FACB1B500E45C7C /* BullsEyeUITests.swift */; };
+		28565F881FAD7C4F00E45C7C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565F871FAD7C4F00E45C7C /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		28565F751FACB1B500E45C7C /* BullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28565F791FACB1B500E45C7C /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
 		28565F7B1FACB1B500E45C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28565F871FAD7C4F00E45C7C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		28565F581FACB1B500E45C7C /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				28565F871FAD7C4F00E45C7C /* AboutViewController.swift */,
 				28565F591FACB1B500E45C7C /* AppDelegate.swift */,
 				28565F5B1FACB1B500E45C7C /* ViewController.swift */,
 				28565F5D1FACB1B500E45C7C /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28565F881FAD7C4F00E45C7C /* AboutViewController.swift in Sources */,
 				28565F5C1FACB1B500E45C7C /* ViewController.swift in Sources */,
 				28565F5A1FACB1B500E45C7C /* AppDelegate.swift in Sources */,
 			);
