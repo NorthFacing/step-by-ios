@@ -30,6 +30,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         startNewGame()
         updateLabels()
+        
+        // slider 美化开始
+        let thumbImageNormal = UIImage(named: "SliderThumb-Normal")!
+        slider.setThumbImage(thumbImageNormal, for: .normal)
+        let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")!
+        slider.setThumbImage(thumbImageHighlighted, for: .highlighted)
+        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+        let trackLeftImage = UIImage(named: "SliderTrackLeft")!
+        let trackLeftResizable = trackLeftImage.resizableImage(withCapInsets: insets)
+        slider.setMinimumTrackImage(trackLeftResizable, for: .normal)
+        let trackRightImage = UIImage(named: "SliderTrackRight")!
+        let trackRightResizable = trackRightImage.resizableImage(withCapInsets: insets)
+        slider.setMaximumTrackImage(trackRightResizable, for: .normal)
+        // slider 美化开始-结束
+
     }
 
     @IBAction func sliderMoved(_ slider: UISlider) { // Bob：变量名 slider前面的 下划线 是什么东西？和UI关联的方法对参数个数是什么限定条件？
